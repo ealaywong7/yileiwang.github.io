@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Yilei Wang — undergraduate at Tsinghua University. Research on human-robot interaction and embodied AI.">
+<title>Yilei Wang (王乙耒) · Homepage</title>
+<style>
+  :root {
+    --accent: #6b2f9e;
+    --accent-soft: #f3ecfb;
+    --ink: #1c1c22;
+    --muted: #5c5c68;
+    --line: #e9e4f0;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrap { max-width: 840px; margin: 0 auto; padding: 0 24px; }
+
+  header { padding: 52px 0 30px; border-bottom: 1px solid var(--line); }
+  .hero { display: flex; gap: 26px; align-items: center; }
+  .avatar {
+    width: 86px; height: 86px; border-radius: 50%; flex-shrink: 0;
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+    color: #fff; display: flex; align-items: center; justify-content: center;
+    font-size: 28px; font-weight: 600; letter-spacing: 1px;
+    box-shadow: 0 6px 18px rgba(107, 47, 158, 0.22);
+  }
+  h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; }
+  h1 .cn { color: var(--muted); font-weight: 500; font-size: 23px; margin-left: 10px; }
+  .affil { color: var(--muted); margin-top: 5px; font-size: 16px; }
+  .contact { margin-top: 12px; font-size: 15px; color: var(--muted); }
+  .contact a { font-weight: 500; }
+  .contact .sep { margin: 0 8px; color: #c9c3d4; }
+
+  main { padding: 8px 0 56px; }
+  section { padding: 30px 0 2px; }
+  h2 {
+    font-size: 19px; font-weight: 700; letter-spacing: -0.01em;
+    margin-bottom: 16px; padding-bottom: 9px; border-bottom: 1px solid var(--line);
+  }
+  h2 .tag { color: var(--accent); margin-right: 6px; }
+
+  p.lead { font-size: 16px; color: #2a2a32; }
+  ul.plain { list-style: none; }
+  ul.plain li {
+    position: relative; padding-left: 18px; margin: 7px 0; font-size: 15px;
+  }
+  ul.plain li::before {
+    content: ""; position: absolute; left: 0; top: 10px;
+    width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
+  }
+
+  .pub { margin-bottom: 20px; }
+  .pub .title { font-size: 16px; font-weight: 650; line-height: 1.45; }
+  .pub .authors { font-size: 14.5px; color: #3a3a44; margin-top: 3px; }
+  .pub .authors .me { font-weight: 700; color: var(--accent); }
+  .pub .venue { font-size: 14px; color: var(--muted); margin-top: 3px; }
+  .pub .venue .badge {
+    display: inline-block; font-size: 12px; color: var(--accent);
+    background: var(--accent-soft); border-radius: 20px; padding: 1px 9px; margin-right: 6px;
+    font-weight: 600;
+  }
+
+  .item { display: grid; grid-template-columns: 176px 1fr; gap: 14px; margin-bottom: 16px; }
+  .item .when { font-size: 13px; color: var(--muted); padding-top: 3px; }
+  .item .body .role { font-weight: 650; font-size: 15.5px; }
+  .item .body .org { font-size: 14px; color: var(--muted); margin-top: 1px; }
+  .item .body .desc { font-size: 14.5px; color: #34343e; margin-top: 4px; }
+
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
+  .skills span {
+    font-size: 13px; color: #3a3a44; background: #f5f4f8;
+    border: 1px solid var(--line); border-radius: 6px; padding: 3px 11px;
+  }
+
+  footer { padding: 22px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+
+  @media (max-width: 620px) {
+    .hero { flex-direction: column; align-items: flex-start; }
+    h1 { font-size: 27px; }
+    .item { grid-template-columns: 1fr; gap: 3px; }
+    .item .when { order: -1; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="hero">
+        <div class="avatar">YW</div>
+        <div>
+          <h1>Yilei Wang<span class="cn">王乙耒</span></h1>
+          <div class="affil">Undergraduate · Weiyang College, Tsinghua University</div>
+          <div class="contact">
+            <a href="mailto:wangyile23@mails.tsinghua.edu.cn">wangyile23@mails.tsinghua.edu.cn</a>
+            <span class="sep">·</span>
+            <span>Beijing, China</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2><span class="tag">#</span>About</h2>
+        <p class="lead">
+          I am a senior undergraduate at Weiyang College, Tsinghua University, majoring in
+          Mathematical and Basic Sciences with Industrial Engineering (primary) and
+          Environmental Engineering (minor). My research lies at the intersection of
+          <strong>human&ndash;robot interaction</strong> and <strong>embodied AI</strong>:
+          I study how robots understand people, repair trust, and act in the physical world.
+        </p>
+      </section>
+
+      <section id="interests">
+        <h2><span class="tag">#</span>Research Interests</h2>
+        <ul class="plain">
+          <li>Human&ndash;Robot Interaction (HRI) and trust repair</li>
+          <li>Embodied AI and robot learning</li>
+          <li>Whole-body world-action models and motion priors</li>
+          <li>Service robotics and humanoid manipulation</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2><span class="tag">#</span>Publications</h2>
+
+        <div class="pub">
+          <div class="title">When Apologies Help and When They Backfire: Robot Service Recovery Under Queue-Time Overruns</div>
+          <div class="authors"><span class="me">Yilei Wang</span>, Xingyu Zhao, Qi Wu, Guo Yin, Pei-Luen Patrick Rau</div>
+          <div class="venue"><span class="badge">Accepted</span>IEEE RO-MAN 2026 · Late Breaking Report · First author</div>
+        </div>
+
+        <div class="pub">
+          <div class="title">WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors</div>
+          <div class="authors">Bowei Zhang, &hellip;, <span class="me">Yilei Wang</span>, et al.</div>
+          <div class="venue">
+            <a href="https://arxiv.org/abs/2609.18197" target="_blank" rel="noopener">arXiv:2609.18197</a>
+            <span class="sep" style="margin:0 6px;color:#c9c3d4;">·</span>2026
+          </div>
+        </div>
+      </section>
+
+      <section id="research">
+        <h2><span class="tag">#</span>Research Experience</h2>
+
+        <div class="item">
+          <div class="when">2026.02&ndash;2026.06</div>
+          <div class="body">
+            <div class="role">Robot Service Recovery Under Queue-Time Overruns</div>
+            <div class="org">Project Lead · Tsinghua University · Advisor: Prof. Pei-Luen Patrick Rau</div>
+            <div class="desc">Led a 2&times;3 between-subjects experiment with a NAO robot; designed, trained, and deployed a Gemini 3.5-flash-based reinforcement-learning dialogue policy; uncovered the &ldquo;multi-modal interaction paradox&rdquo;. Resulted in a first-author paper accepted to IEEE RO-MAN 2026.</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="when">2026.06&ndash;2026.09</div>
+          <div class="body">
+            <div class="role">WholeBodyWAM: Whole-Body World Action Models</div>
+            <div class="org">Research Contributor · arXiv preprint (submitted to CoRL)</div>
+            <div class="desc">Built the 4K+ hour heterogeneous motion corpus UniMotion-4K to support scalable motion-prior pretraining; transferred to the Tiangong 3.0 humanoid and independently ran six whole-body tasks on the &pi;0.5 model.</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="when">2026.03&ndash;Present</div>
+          <div class="body">
+            <div class="role">AI-Imaging Intelligent User Perception System</div>
+            <div class="org">Core Member · Tsinghua &times; enterprise collaboration · Advisor: Prof. Pei-Luen Patrick Rau</div>
+            <div class="desc">Contributed to a five-layer user-perception framework; responsible for scale&ndash;dimension mapping and questionnaire reliability/validity analysis.</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="when">2025.12&ndash;2026.04</div>
+          <div class="body">
+            <div class="role">AI-driven Pedestrian Gait &amp; Walking Interaction Generation</div>
+            <div class="org">Member · Tsinghua Human Factors Lab · Advisor: Prof. Pei-Luen Patrick Rau</div>
+            <div class="desc">Surveyed pedestrian-avoidance methods and benchmarked Runway Gen-3/4/4.5 for controllable gait synthesis via prompt and Motion Brush engineering.</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="when">2024.10&ndash;2025.09</div>
+          <div class="body">
+            <div class="role">Global Wildfire Atmospheric Emission Prediction</div>
+            <div class="org">SRT Core Member · Tsinghua · Advisor: Prof. Bin Zhao</div>
+            <div class="desc">Built a multi-source data preprocessing pipeline (MERRA-2, GFED, MODIS, CMIP6) and explored LSTM spatiotemporal models for emission prediction.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="internship">
+        <h2><span class="tag">#</span>Internship</h2>
+        <div class="item">
+          <div class="when">2026.06&ndash;2026.09</div>
+          <div class="body">
+            <div class="role">Embodied AI Algorithm Intern</div>
+            <div class="org">Beijing Humanoid Robot Innovation Center</div>
+            <div class="desc">Ran multi-stage manipulation tasks on the &pi;0.5 vision&ndash;language&ndash;action model; optimized edge-side inference, reducing latency from 350 ms to 220 ms on Jetson AGX Thor.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2><span class="tag">#</span>Education</h2>
+        <div class="item">
+          <div class="when">2023&ndash;2027 (exp.)</div>
+          <div class="body">
+            <div class="role">B.S., Weiyang College, Tsinghua University</div>
+            <div class="org">Mathematical and Basic Sciences + Industrial Engineering (major) · Environmental Engineering (minor)</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="honors">
+        <h2><span class="tag">#</span>Honors &amp; Awards</h2>
+        <ul class="plain">
+          <li>Outstanding Student Cadre, Weiyang College, Tsinghua University (2025)</li>
+          <li>Weiyang College First-Class Scholarship (众秀一等奖学金), Tsinghua University (2024)</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2><span class="tag">#</span>Skills</h2>
+        <div class="skills">
+          <span>Python (PyTorch)</span>
+          <span>R</span>
+          <span>Linux / HPC</span>
+          <span>Experiment Design</span>
+          <span>Psychometrics</span>
+          <span>Interviews &amp; Qualitative Coding</span>
+          <span>LaTeX</span>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2><span class="tag">#</span>Contact</h2>
+        <p style="font-size:15px;">
+          Email: <a href="mailto:wangyile23@mails.tsinghua.edu.cn">wangyile23@mails.tsinghua.edu.cn</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2026 Yilei Wang &middot; Weiyang College, Tsinghua University
+    </footer>
+  </div>
+</body>
+</html>
